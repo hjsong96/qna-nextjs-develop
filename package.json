@@ -1,0 +1,34 @@
+{
+  "name": "qna-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
+    "debug-win": "cross-env NODE_OPTIONS='--inspect' next dev"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "next": "14.1.4",
+    "next-auth": "^4.24.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "react-sortablejs": "^6.1.4",
+    "shortid": "^2.2.16",
+    "sortablejs": "^1.15.2",
+    "sweetalert2": "^11.10.6",
+    "swr": "^2.2.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
